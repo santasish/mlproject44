@@ -50,6 +50,9 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+__pycache__/
+*.pyc
+*.pyo
 
 # Translations
 *.mo
@@ -130,11 +133,14 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv2
 env/
 venv/
+venv2/
 ENV/
 env.bak/
 venv.bak/
+venv2.bak/
 
 # Spyder project settings
 .spyderproject
@@ -172,3 +178,20 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore logs
+logs/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore other unnecessary files
+*.log
+*.tmp
